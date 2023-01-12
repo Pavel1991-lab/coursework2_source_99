@@ -41,4 +41,6 @@ class PostManager:
                 a = post["content"]
         return a
 
+post_manager = PostManager("posts.json")
+print(post_manager.search_for_posts('ага'))
 
