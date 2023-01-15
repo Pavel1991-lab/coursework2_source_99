@@ -14,7 +14,7 @@ class PostManager:
     def get_posts_by_user(self,user_name):
         for post in self.get_posts_all('data/posts.json'):
             if post['poster_name'] == user_name:
-                return post["content"]
+                return post
             if post['poster_name'] == user_name and len(post["content"]) == 0:
                 return []
         return f'Vallue Error'
@@ -31,7 +31,7 @@ class PostManager:
         for i in self.get_posts_all('data/posts.json'):
             if querry.lower() in i["content"].lower():
                 a.append(i["content"])
-                return a
+        return a
 
     def get_post_by_pk(self,pk):
         for post in self.get_posts_all('data/posts.json'):
@@ -40,4 +40,4 @@ class PostManager:
 
 
 post_manager = PostManager(os.path.join("data","posts.json"))
-print(post_manager.search_for_posts('ага'))
+print(post_manager.get_posts_by_user('hank'))
