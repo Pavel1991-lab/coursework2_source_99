@@ -1,4 +1,6 @@
 import json
+import os
+
 
 class PostManager:
     def __init__(self,path):
@@ -10,7 +12,7 @@ class PostManager:
         return data
 
     def get_posts_by_user(self,user_name):
-        for post in self.get_posts_all('posts.json'):
+        for post in self.get_posts_all('data/posts.json'):
             if post['poster_name'] == user_name:
                 return post["content"]
             if post['poster_name'] == user_name and len(post["content"]) == 0:
@@ -19,28 +21,23 @@ class PostManager:
 
     def get_comments_by_post_id(self,post_id):
         b = []
-        d = []
-        for coment in self.get_posts_all('comments.json'):
+        for coment in self.get_posts_all('data/comments.json'):
             if coment['post_id'] == post_id:
-                b.append(coment["comment"])
-            d.append(coment["post_id"])
-        if post_id not in d:
-            return f'Vallue Error'
+                b.append(coment)
         return b
 
     def search_for_posts(self,querry):
         a = []
-        for i in self.get_posts_all('posts.json'):
+        for i in self.get_posts_all('data/posts.json'):
             if querry.lower() in i["content"].lower():
                 a.append(i["content"])
-        return a
+                return a
 
     def get_post_by_pk(self,pk):
-        for post in self.get_posts_all('posts.json'):
+        for post in self.get_posts_all('data/posts.json'):
             if post['pk'] == pk:
-                a = post["content"]
-        return a
+                return post
 
-post_manager = PostManager("posts.json")
+
+post_manager = PostManager(os.path.join("data","posts.json"))
 print(post_manager.search_for_posts('ага'))
-
