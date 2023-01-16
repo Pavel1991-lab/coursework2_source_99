@@ -30,7 +30,7 @@ class PostManager:
         a = []
         for i in self.get_posts_all('data/posts.json'):
             if querry.lower() in i["content"].lower():
-                a.append(i["content"])
+                a.append(i)
         return a
 
     def get_post_by_pk(self,pk):
@@ -39,5 +39,3 @@ class PostManager:
                 return post
 
 
-post_manager = PostManager(os.path.join("data","posts.json"))
-print(post_manager.get_posts_by_user('hank'))
