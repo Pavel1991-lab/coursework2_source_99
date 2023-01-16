@@ -1,6 +1,6 @@
 import json
 import os
-
+"""Создаем класс с необходимыми методами"""
 
 class PostManager:
     def __init__(self,path):
@@ -15,7 +15,7 @@ class PostManager:
         for post in self.get_posts_all('data/posts.json'):
             if post['poster_name'] == user_name:
                 return post
-            if post['poster_name'] == user_name and len(post["content"]) == 0:
+            elif post['poster_name'] == user_name and len(post["content"]) == 0:
                 return []
         return f'Vallue Error'
 
@@ -30,7 +30,7 @@ class PostManager:
         a = []
         for i in self.get_posts_all('data/posts.json'):
             if querry.lower() in i["content"].lower():
-                a.append(i["content"])
+                a.append(i)
         return a
 
     def get_post_by_pk(self,pk):
@@ -38,6 +38,8 @@ class PostManager:
             if post['pk'] == pk:
                 return post
 
-
+co = 0
 post_manager = PostManager(os.path.join("data","posts.json"))
-print(post_manager.get_posts_by_user('hank'))
+posts = post_manager.get_posts_by_user('leo')
+
+print(posts)
