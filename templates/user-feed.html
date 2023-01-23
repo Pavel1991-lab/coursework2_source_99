@@ -11,7 +11,7 @@
 <body>
   <header class="container header">
     <div class="header__wrapper">
-      <a href="/static" class="header__btn-back">
+      <a href="http://127.0.0.1:5010/" class="header__btn-back">
         <svg class="header__btn-icon" width="19" height="16">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#back"></use>
         </svg>
@@ -25,14 +25,14 @@
     <section class="items">
       <div class="items__item item">
         <div class="item__top">
-          <a href="/data/templateslates/user-feed.html" class="item__head">
+          <a href="/post/{{ post.pk }}" class="item__head">
             <div class="item__ava-wrap">
               <img src="{{user.poster_avatar}}" alt="" class="item__ava" width="47">
             </div>
             <span class="item__username">{{user.poster_name}}</span>
           </a>
         </div>
-        <a href="/data/templateslates/post.html" class="item__post-link">
+        <a href="/post/{{ post.pk }}" class="item__post-link">
           <img src="{{user.pic}}" alt="" width="348" class="item__post-img">
         </a>
         <p class="item__descr"><a href="#" class="item__tag">#food</a> {{user.content}}</p>
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="item__post-bottom">
-          <a href="/data/templateslates/post.html" class="item__btn-more">Подробнее</a>
+          <a href="/post/{{ post.pk }}" class="item__btn-more">Подробнее</a>
           <button type="button" class="item__bookmark-btn">
             <img src="/static/css/img/bookmark.png" alt="" class="item__bookmark-icon" width="24">
           </button>

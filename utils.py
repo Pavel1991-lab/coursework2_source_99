@@ -2,7 +2,9 @@ import json
 import os
 
 
+
 """Функции которые используем для написания API - эндпоинта"""
+
 def get_posts(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         data = json.load(f)

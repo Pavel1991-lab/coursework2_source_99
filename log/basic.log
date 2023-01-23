@@ -1,0 +1,884 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:28:56] "GET /api/posts/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:29:00] "GET /api/posts/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:30:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:30:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:30:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:30:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:02] "GET /post/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:02] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:02] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:02] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:02] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:11] "[35m[1mGET /api/posts/3 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:11] "GET /api/posts/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:11] "GET /api/posts/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:11] "GET /api/posts/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:11] "[36mGET /api/posts/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:19] "[35m[1mGET /api/posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:19] "GET /api/posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:19] "GET /api/posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:20] "GET /api/posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:20] "[36mGET /api/posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:24] "[35m[1mGET /api/posts/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:24] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:24] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:24] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:24] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:33:40] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:35:43] "[35m[1mGET /api/posts/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:35:43] "GET /api/posts/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:35:43] "GET /api/posts/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:35:43] "GET /api/posts/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:35:43] "[36mGET /api/posts/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:35:56] "GET /api/posts/2 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\�������\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:38:31] "[35m[1mGET /api/posts/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:38:31] "[36mGET /api/posts/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:38:31] "[36mGET /api/posts/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:38:31] "[36mGET /api/posts/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:38:31] "[36mGET /api/posts/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:38:49] "GET /api/posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:03] "[35m[1mGET /api/posts/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:03] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:03] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:03] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:03] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:07] "[35m[1mGET /api/posts/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:07] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:07] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:07] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:10] "[35m[1mGET /api/posts/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:10] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:10] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:10] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:40:10] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:41:06] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:41:09] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:22] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:28] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:28] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:32] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:37] "GET /search?s=Ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:37] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:40] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:50] "GET /search?s=Районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:50] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:46:53] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:34] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:34] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:42] "GET /search?s=районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:42] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:54:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:56:41] "[35m[1mGET /api/posts/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:56:41] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:56:41] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:56:41] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:56:41] "[36mGET /api/posts/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:root:Запрос /api/posts/
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:57:09] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:root:2023-01-19 01:59:06.181186 [INFO] Запрос /api/posts/1 
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:59:06] "GET /api/posts/1 HTTP/1.1" 200 -
+INFO:root:2023-01-19 01:59:11.178962 [INFO] Запрос /api/posts/4 
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:59:11] "GET /api/posts/4 HTTP/1.1" 200 -
+INFO:root:Запрос /api/posts/
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 01:59:13] "GET /api/posts/ HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-665-416
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 02:38:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 02:38:26] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 02:38:26] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 02:38:26] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 02:38:44] "[33mGET /post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jan/2023 02:38:47] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 15:40:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 15:40:04] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 15:40:04] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 15:40:04] "GET /static/img/eye.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 15:40:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 16:15:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 16:15:19] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 16:15:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 16:15:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 16:15:35] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 16:15:41] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\tests\\api_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:59] "GET /search?s=Ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:59] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:41:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:42:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:42:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:42:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 19:42:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\post_manager.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:23:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:23:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:23:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:23:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:23:22] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:23:26] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:24:37] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:24:45] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:24:47] "[33mGET /post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:24:49] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:24:55] "[33mGET /post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:24:58] "[33mGET /posts/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:25:43] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:28] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:35] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:41] "[33mGET /posts/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:51] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:51] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:51] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:31:51] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:07] "[33mGET /post/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:32:44] "[33mGET /post/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:33:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:33:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:33:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:33:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:33:42] "[33mGET /post/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:34:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:42] "GET /post/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:42] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:42] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:42] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:48] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:35:55] "[33mGET /post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:36:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:36:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:36:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:36:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Алексей\\PycharmProjects\\coursework2_source\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:41] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:43] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:44] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:44] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:44] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:55] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:55] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:55] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:55] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:38:55] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:24] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:24] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:24] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:24] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:33] "[33mGET /post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:42:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:28] "[33mGET /post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:32] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:33] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:33] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:33] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:36] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:36] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:36] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:36] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:41] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:41] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:41] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:43:41] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:33] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:33] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:33] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:33] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:37] "GET /post/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:37] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:37] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:37] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:39] "GET /post/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:39] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:39] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:39] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:43] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:43] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:43] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:46:43] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:41] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:46] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:56] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:56] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:56] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:47:56] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:00] "GET /post/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:00] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:00] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:00] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:12] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:12] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:19] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:22] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:25] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:28] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:31] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:39] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:53] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:53] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:53] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:48:53] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:06] "[33mGET /static?s=районе HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:17] "GET /search?s=районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:18] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:22] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:30] "GET /post/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:30] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:30] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:49:30] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:50:18] "GET /search?s=районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:50:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:50:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:50:18] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:50:21] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:53:54] "GET /search?s=районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:53:54] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:53:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:53:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:53:56] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:53:59] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:54:02] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:54:04] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:08] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:18] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:18] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:18] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:18] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:22] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:29] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:29] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:55:32] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:56:53] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:56:53] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:56:53] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:56:53] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:56:54] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:56:56] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:57:00] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:57:03] "[33mGET /data/templateslates/post.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:57:24] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:27] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:35] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:35] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:35] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:35] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:41] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:41] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:41] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:41] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:42] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:43] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:43] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:43] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:44] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:44] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:44] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:44] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:45] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:46] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:47] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:50] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:50] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:50] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:50] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:52] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:58] "GET /search?s=районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:58] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:58] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 22:59:58] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:00] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:02] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:04] "[33mGET /data/templateslates/user-feed.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:46] "GET /search?s=районе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:46] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:48] "GET /post/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:48] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:48] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:48] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:48] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:49] "GET /post/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:49] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:49] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:49] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:50] "GET /post/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:50] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:50] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:50] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:00:53] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:01:01] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:01:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:01:01] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:01:01] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:01:01] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:01:03] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:02:38] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:02:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:02:38] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:02:38] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:02:38] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:02:39] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:03:52] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:03:58] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:03:58] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:03:58] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:03:58] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:03:58] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:01] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:10] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:10] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:14] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:14] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:14] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:14] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:17] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:59] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:59] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:04:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:05:01] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:07] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:07] "GET /post/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:07] "GET /post/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:07] "GET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:08] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:24] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:24] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:24] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:24] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:27] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:29] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:29] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:29] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:29] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:30] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:30] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:33] "GET /post/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:34] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:34] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:34] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:35] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:35] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:35] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:41] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:41] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:07:42] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5010
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 126-335-237
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:44] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:45] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:45] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:45] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:46] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:49] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:49] "[33mGET /static/css/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:54] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:55] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:55] "[33mGET /img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:55] "[33mGET /img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:55] "[33mGET /post/static/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2023 23:09:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
